@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		1F27FE172851F768007BDC7A /* DogTay1.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1F27FE162851F768007BDC7A /* DogTay1.docc */; };
 		1F27FE182851F768007BDC7A /* DogTay1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F27FE152851F768007BDC7A /* DogTay1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F27FE1F2851F7C1007BDC7A /* DogFormView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F27FE1E2851F7C1007BDC7A /* DogFormView.xib */; };
+		1F27FE212851F7D1007BDC7A /* DogFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27FE202851F7D1007BDC7A /* DogFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F27FE122851F768007BDC7A /* DogTay1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DogTay1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F27FE152851F768007BDC7A /* DogTay1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogTay1.h; sourceTree = "<group>"; };
 		1F27FE162851F768007BDC7A /* DogTay1.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DogTay1.docc; sourceTree = "<group>"; };
+		1F27FE1E2851F7C1007BDC7A /* DogFormView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogFormView.xib; sourceTree = "<group>"; };
+		1F27FE202851F7D1007BDC7A /* DogFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 		1F27FE142851F768007BDC7A /* DogTay1 */ = {
 			isa = PBXGroup;
 			children = (
+				1F27FE1E2851F7C1007BDC7A /* DogFormView.xib */,
+				1F27FE202851F7D1007BDC7A /* DogFormView.swift */,
 				1F27FE152851F768007BDC7A /* DogTay1.h */,
 				1F27FE162851F768007BDC7A /* DogTay1.docc */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F27FE1F2851F7C1007BDC7A /* DogFormView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F27FE172851F768007BDC7A /* DogTay1.docc in Sources */,
+				1F27FE212851F7D1007BDC7A /* DogFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +289,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.annmei.annmei1.DogTay1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,9 +318,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.annmei.annmei1.DogTay1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
