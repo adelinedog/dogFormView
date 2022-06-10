@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DogTay1'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Create a library for first time'
  
   s.description      = <<-DESC
@@ -29,7 +29,7 @@ SOFTWARE.
 LICENSE
  }
   s.author           = { 'TAY ANN MEI' => 't_rainbow_8@hotmail.com' }
-  s.source           = { :git => 'https://github.com/adelinedog/dogFormView.git', :branch => "main", :tag => '1.0.2' }
+  s.source           = { :git => 'https://github.com/adelinedog/dogFormView.git', :branch => "main", :tag => '1.0.3' }
  
   s.ios.deployment_target = '15.5'
   s.source_files = 'DogTay1/*.{swift, plist, txt, xib}'
