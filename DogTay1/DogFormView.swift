@@ -17,7 +17,7 @@ public class DogFormView: UIView, UITextFieldDelegate {
     var mainViewController: UIViewController? = nil
 
     public class func instanceFromNib() -> DogFormView {
-        let bundle = Bundle(identifier: "com.annmei.annmei1.DogTay1")
+        let bundle = Bundle(identifier: "org.cocoapods.DogTay1")
         let nibView = bundle?.loadNibNamed("DogFormView", owner: self, options: nil)?.first as! DogFormView
         return nibView
     }
