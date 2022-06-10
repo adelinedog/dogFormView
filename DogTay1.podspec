@@ -34,5 +34,8 @@ LICENSE
   s.ios.deployment_target = '15.5'
   s.source_files = 'DogTay1/*.{swift, plist, txt, xib}'
   s.swift_version = '5.0'
+  s.resource_bundles = {
+    'MyFramework' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  }
  
 end
