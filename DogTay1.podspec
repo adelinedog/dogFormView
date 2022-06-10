@@ -36,7 +36,7 @@ LICENSE
   s.swift_version = '5.0'
   s.resources = ['DogTay1/*.xib']
   s.resource_bundles = {
-    'DogTay1' => ['Pod/DogTay1/*.xib']
+    'DogTay1' => ['Pods/DogTay1/*.xib']
   }
  
 end
