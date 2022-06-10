@@ -35,7 +35,7 @@ LICENSE
   s.source_files = 'DogTay1/*.{swift, plist, txt, xib}'
   s.swift_version = '5.0'
   s.resource_bundles = {
-    'MyFramework' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+    'DogTay1' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
   }
  
 end
